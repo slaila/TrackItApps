@@ -15,12 +15,9 @@ This project is a starting point for a Flutter financial tracking application.
 - Simple and intuitive UI
 - State management with Provider
 
-### Project Structure
+### App Preview
 
-- `lib/models` – Data models (e.g., Transaction)
-- `lib/providers` – State management (e.g., AuthProvider, TransactionProvider)
-- `lib/screens` – UI screens (e.g., Login, Register, Statistics)
-- `lib/widgets` – Reusable UI components
+![TrackIt UI](screenshots/TrackItpng)
 
 A few resources to get you started if this is your first Flutter project:
 
