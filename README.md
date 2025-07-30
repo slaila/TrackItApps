@@ -17,7 +17,7 @@ This project is a starting point for a Flutter financial tracking application.
 
 ### App Preview
 
-![TrackIt UI](screenshots/TrackItpng)
+![TrackIt UI](screenshots/TrackIt.png)
 
 A few resources to get you started if this is your first Flutter project:
 
