@@ -1,16 +1,32 @@
 # TrackIt Mobile Apps
 
-A new Flutter project.
+TrackIt is a simple and modern Flutter application for tracking daily financial transactions. Users can record income and expenses, view transaction history, and analyze financial summaries using charts.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Flutter financial tracking application.
+
+### Features
+
+- Add, view, and delete income/expense transactions
+- Calculate balance automatically
+- Visual statistics using charts
+- Filter transactions by date
+- Simple and intuitive UI
+- State management with Provider
+
+### Project Structure
+
+- `lib/models` – Data models (e.g., Transaction)
+- `lib/providers` – State management (e.g., AuthProvider, TransactionProvider)
+- `lib/screens` – UI screens (e.g., Login, Register, Statistics)
+- `lib/widgets` – Reusable UI components
 
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
+For help getting started with Flutter development, view the  
+[online documentation](https://docs.flutter.dev/), which offers tutorials,  
 samples, guidance on mobile development, and a full API reference.
