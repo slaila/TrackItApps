@@ -8,7 +8,7 @@ This project is a starting point for a Flutter financial tracking application.
 
 ### App Preview
 
-![TrackIt UI](screenshots/trackit.png)
+![TrackIt UI](screenshot/trackit.png)
 
 ### Features
 
