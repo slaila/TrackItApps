@@ -10,9 +10,7 @@
 - [Getting Started](#getting-started)  
 - [Installation](#installation)  
 - [Usage](#usage)  
-- [State Management](#state-management)  
-- [Contributing](#contributing)  
-- [Resources](#resources)  
+- [State Management](#state-management) 
 
 ## Features
 
@@ -26,6 +24,18 @@
 ## Screenshots
 
 <img src="screenshot/trackit.png" alt="TrackIt UI" width="450"/>
+
+
+## Getting Started
+
+These instructions will help you set up the project locally for development and testing purposes.
+
+### Prerequisites
+
+- Flutter SDK >= 3.0.0  
+- Dart >= 3.0.0  
+- Android Studio or VS Code  
+- Emulator or physical device for testing  
 
 ## Project Structure
 
@@ -51,7 +61,7 @@ trackit/
 ├─ pubspec.yaml
 ├─ README.md
 └─ .gitignore
-
+```
 
 - **`lib/main.dart`**: Entry point of the app  
 - **`lib/models/transaction.dart`**: Data model for transactions  
@@ -70,15 +80,39 @@ These instructions will help you set up the project locally for development and 
 - Android Studio or VS Code  
 - Emulator or physical device for testing  
 
-## Installation
+### Installation
 
+1. **Clone the repository:**  
 ```bash
-# 1. Clone the repository
 git clone https://github.com/yourusername/trackit.git
 cd trackit
-
-# 2. Install dependencies
+```
+2. **Install dependencies:**  
+```bash
 flutter pub get
-
-# 3. Run the app
+```
+3. **Run the app:**  
+```bash
 flutter run
+```
+## **Usage**
+
+- Open the app on your device or emulator.  
+- Add a new transaction by selecting **Income** or **Expense**.  
+- View your transaction history on the home screen.  
+- Check your financial summary and charts for insights.  
+- Filter transactions by selecting a date range.  
+
+## **State Management**
+
+TrackIt uses **Provider** for state management:  
+
+- Centralized state for transactions and balance calculation.  
+- Reactive UI updates when transactions are added, updated, or deleted.  
+- Easy scalability for future features.
+
+A few resources to get you started if this is your first Flutter project: 
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on mobile development, and a full API reference.
