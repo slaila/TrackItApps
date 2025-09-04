@@ -25,18 +25,6 @@
 
 <img src="screenshot/trackit.png" alt="TrackIt UI" width="450"/>
 
-
-## Getting Started
-
-These instructions will help you set up the project locally for development and testing purposes.
-
-### Prerequisites
-
-- Flutter SDK >= 3.0.0  
-- Dart >= 3.0.0  
-- Android Studio or VS Code  
-- Emulator or physical device for testing  
-
 ## Project Structure
 
 ```text
@@ -116,3 +104,4 @@ A few resources to get you started if this is your first Flutter project:
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on mobile development, and a full API reference.
+
