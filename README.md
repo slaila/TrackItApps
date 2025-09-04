@@ -28,27 +28,6 @@
 <img src="screenshot/trackit.png" alt="TrackIt UI" width="450"/>
 
 ## Project Structure
-trackit/
-│
-├─ android/
-├─ ios/
-├─ lib/
-│ ├─ main.dart
-│ ├─ models/
-│ │ └─ transaction.dart
-│ ├─ providers/
-│ │ └─ transaction_provider.dart
-│ ├─ screens/
-│ │ ├─ home_screen.dart
-│ │ └─ add_transaction_screen.dart
-│ ├─ widgets/
-│ │ ├─ transaction_list.dart
-│ │ └─ chart.dart
-├─ screenshot/
-│ └─ trackit.png
-├─ pubspec.yaml
-├─ README.md
-└─ .gitignore
 
 - **`lib/main.dart`**: Entry point of the app  
 - **`lib/models/transaction.dart`**: Data model for transactions  
