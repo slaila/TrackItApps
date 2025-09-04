@@ -29,6 +29,30 @@
 
 ## Project Structure
 
+```text
+trackit/
+│
+├─ android/
+├─ ios/
+├─ lib/
+│   ├─ main.dart
+│   ├─ models/
+│   │   └─ transaction.dart
+│   ├─ providers/
+│   │   └─ transaction_provider.dart
+│   ├─ screens/
+│   │   ├─ home_screen.dart
+│   │   └─ add_transaction_screen.dart
+│   ├─ widgets/
+│   │   ├─ transaction_list.dart
+│   │   └─ chart.dart
+├─ screenshot/
+│   └─ trackit.png
+├─ pubspec.yaml
+├─ README.md
+└─ .gitignore
+
+
 - **`lib/main.dart`**: Entry point of the app  
 - **`lib/models/transaction.dart`**: Data model for transactions  
 - **`lib/providers/transaction_provider.dart`**: State management using Provider  
@@ -46,9 +70,15 @@ These instructions will help you set up the project locally for development and 
 - Android Studio or VS Code  
 - Emulator or physical device for testing  
 
-### Installation
+## Installation
 
-1. **Clone the repository:**  
 ```bash
+# 1. Clone the repository
 git clone https://github.com/yourusername/trackit.git
 cd trackit
+
+# 2. Install dependencies
+flutter pub get
+
+# 3. Run the app
+flutter run
